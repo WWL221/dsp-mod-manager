@@ -1,0 +1,26 @@
+# ---- 构建产物 ----
+build/
+*.exe
+*.pdb
+*.dll
+
+# ---- 工具链（可从 NuGet 重新获取，不入库）----
+tools/
+
+# ---- 本地临时 / 调试 ----
+probe/*.exe
+probe/*.txt
+*.log
+build_log.txt
+modmanager.lastdir
+
+# ---- 发行包（用 Release 附件发布）----
+package/*.zip
+
+# ---- IDE ----
+.vs/
+*.user
+*.suo
+.idea/
+# ---- 发行包目录（Release 附件）----
+package/
